@@ -1,0 +1,25 @@
+/* Card.css */
+/* Styles for Desktop */
+.card {
+    margin-left: 10%; /* Use percentage-based margin for stability */
+    margin-top: 5vh; /* Adjust according to your design */
+    width: 22%;
+}
+  
+  /* Styles for Tablets */
+  @media (max-width: 768px) {
+    .card {
+      margin: 10% auto; /* Center horizontally */
+      margin-top: 7.5vh; /* Adjust according to your design */
+      width: 80%; /* Adjust width based on your design */
+    }
+  }
+  
+  /* Styles for Mobile Phones */
+  @media (max-width: 480px) {
+    .card {
+      margin: 5% auto; /* Center horizontally */
+      margin-top: 5vh; /* Adjust according to your design */
+      width: 95%; /* Adjust width based on your design */
+    }
+  }

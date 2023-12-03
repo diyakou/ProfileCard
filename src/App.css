@@ -11,6 +11,8 @@ html {
   margin-left: 450px;
   margin-top: 150px;
 }
+
+/* Styles for Tablets */
 @media (max-width: 768px) {
   .card {
     margin-left: auto;

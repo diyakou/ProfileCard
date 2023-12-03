@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "../avatar/avatar";
 import Social from "../social/social";
+import './Card.css'
 function Card() {
       return(
         <>
